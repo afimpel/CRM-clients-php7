@@ -18,7 +18,3 @@ if ($actions['type'] == "edit") {
 	$entityManager->flush();
 	echo "Groupo de Cliente: " . $GroupClient->getName();
 }
-error_log("--- " . date("U") . " --- $eid ---\n", 3, "my-errors.log");
-error_log(print_r($_POST, true), 3, "my-errors.log");
-error_log(print_r($actions, true), 3, "my-errors.log");
-error_log("--- " . date("U") . " --- $eid ---\n", 3, "my-errors.log");

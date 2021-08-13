@@ -46,7 +46,3 @@ if ($actions['type'] == "delete") {
 		"Groupo de Cliente: " . $Client->getGroupClient()->getName() . "\n" .
 		"observaciones: " . $Client->getObservations();
 }
-error_log("--- " . date("U") . " --- $eid ---\n", 3, "my-errors.log");
-error_log(print_r($_POST, true), 3, "my-errors.log");
-error_log(print_r($actions, true), 3, "my-errors.log");
-error_log("--- " . date("U") . " --- $eid ---\n", 3, "my-errors.log");

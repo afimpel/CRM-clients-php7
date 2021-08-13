@@ -1,5 +1,5 @@
 <?php
-// getData.php
+// getClients.php
 require_once "bootstrap.php";
 
 $ClientsRepository = $entityManager->getRepository('Clients');
