@@ -1,0 +1,9 @@
+composer.lock
+composer.phar
+vendor/
+cache/*
+templates_c/*
+tmp/*
+!cache/.gitkeep 
+!templates_c/.gitkeep 
+!tmp/.gitkeep 

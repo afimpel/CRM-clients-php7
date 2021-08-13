@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": ">=7.0",
+        "ext-pdo_mysql": "*",
+        "doctrine/orm": "*",
+        "symfony/cache": "*",
+        "smarty/smarty":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
